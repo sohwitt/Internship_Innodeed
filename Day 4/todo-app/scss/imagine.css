@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&family=Archivo:wght@500;700;900&family=Great+Vibes&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+#index {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  background-repeat: no-repeat;
+  font-family: 'Andika New Basic', sans-serif;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#index #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#index #title {
+  font-size: 5rem;
+  font-family: 'Great Vibes', cursive;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: default;
+}
+
+#index #title #check {
+  font-size: 5rem;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  width: 5rem;
+  padding: 10px;
+  text-transform: lowercase;
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+#index #title #check:focus {
+  border: none;
+  outline: none;
+}
+
+#main {
+  font-family: 'Archivo', sans-serif;
+  overflow: hidden;
+}
+
+#main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(315deg, #72EDF2 10%, #5151E5 100%);
+}
+
+#main .container .title {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 10rem;
+  word-spacing: 3rem;
+  color: #fff;
+  text-shadow: -1px 2px rgba(128, 128, 128, 0.5);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#main .container hr {
+  height: 80vh;
+  width: 10px;
+  color: #00ff00;
+  background-color: #21212121;
+  border: none;
+  border-radius: 5px;
+}
+
+#main .container .form-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .container .form-box #form {
+  font-family: 'Andika New Basic';
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 10px #00000066;
+          box-shadow: 0 4px 10px #00000066;
+  width: 80%;
+}
+
+#main .container .form-box #form .input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.3rem;
+  font-family: 'Andika New Basic';
+  color: #222;
+  -webkit-transition: all 0.75sec ease-in-out;
+  transition: all 0.75sec ease-in-out;
+}
+
+#main .container .form-box #form .input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 5px 5px #00000022;
+          box-shadow: 0 0 5px 5px #00000022;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  border-radius: 5px;
+}
+
+#main .container .form-box #form .input:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0 0 5px 5px #00000022;
+          box-shadow: 0 0 5px 5px #00000022;
+  border-radius: 5px;
+}
+
+#main .container .form-box #form .input::-webkit-input-placeholder {
+  color: #b5b5b5;
+}
+
+#main .container .form-box #form .input:-ms-input-placeholder {
+  color: #b5b5b5;
+}
+
+#main .container .form-box #form .input::-ms-input-placeholder {
+  color: #b5b5b5;
+}
+
+#main .container .form-box #form .input::placeholder {
+  color: #b5b5b5;
+}
+
+#main .container .form-box #form .task-list {
+  padding: 0;
+  background-color: #f5f5f5;
+  list-style-type: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#main .container .form-box #form .task-list li {
+  font-size: 1.3rem;
+  font-family: 'Andika New Basic';
+  color: #555;
+  padding: 10px;
+  -webkit-transition: all 0.75sec ease-in-out;
+  transition: all 0.75sec ease-in-out;
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+#main .container .form-box #form .task-list li.completed {
+  text-decoration: line-through;
+  color: #b5b5b5;
+}
+
+#main .container .form-box #form .task-list li:hover {
+  border: none;
+  background-color: #eee;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  border-radius: 5px;
+}
+
+#main .container .form-box small {
+  margin-top: 10px;
+  color: #fff;
+  font-family: 'Andika New Basic';
+  text-align: center;
+}
+
+@media (max-width: 1280px) {
+  #main .title {
+    display: none;
+  }
+  #main hr {
+    display: none;
+  }
+  #main .form-box {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  #main .form-box {
+    width: 600px;
+    margin-right: 10vw;
+  }
+}
+/*# sourceMappingURL=imagine.css.map */

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        img{
+            height: 40vh;
+            margin: 0;
+            padding: 0;
+        }
+        table, th, td {
+            border: 2px solid #333;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        table{
+            border: 3px solid #555;
+            border-collapse: collapse;
+            margin-left: 10%;
+            width: 80%;
+        }
+        th{
+            width: 20%;
+            text-align: center;
+        }
+        td{
+            width: 20%;
+            justify-content: center;
+            text-align: start;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#resume">Resume</a> || 
+        <a href="#form">Form</a> ||
+        <a href="">Extra</a>
+
+    </nav>
+<section id="#resume">
+    
+    <h3 >HTML Resume</h3>
+    <hr>
+    <table>
+        <tr>
+            <th colspan="3" style="font-size: 35px;">SOHIT BAGGA<br>
+                <span style="font-size: 18px; font-weight: 400;font-style: italic;">Web Developer</span></th>
+                <td rowspan="4" style="text-align: center;"><img src="https://i.pinimg.com/originals/ee/c3/43/eec34327877cb9468c00132e0b45c0e0.jpg" alt="profike photo"></td>
+
+            </tr>
+        <tr>
+            
+            <td colspan="3"><b>Summary</b><br><p style="font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis perspiciatis ab nisi quaerat, adipisci quibusdam perferendis. Minima hic quisquam ab deserunt quod qui totam reiciendis voluptate excepturi, culpa non.</p></td>
+
+        </tr>
+        <tr>
+            <td><b>Languages:</b><br><br>
+                <span style="display: flex; justify-content: space-between;">
+                    <label for="html">HTML/CSS</label>&nbsp;
+                    <progress id="html" value="75" max="100"> Good Enough </progress>
+                </span>
+                <span style="display: flex; justify-content: space-between;">
+                    <label for="react">React</label>&nbsp;
+                    <progress id="react" value="15" max="100"> Starting </progress>
+                </span>
+                <span style="display: flex; justify-content: space-between;">
+                    <label for="Figma">Figma</label>&nbsp;
+                    <progress id="Figma" value="70" max="100"> Starting </progress>
+                </span>
+                
+            </td>
+            <td colspan="2" rowspan="2" ><b>Education:</b><br><br><i>One:</i><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tenetur eius aut magnam natus vitae error maiores laborum harum doloremque ab quis, neque ratione exercitationem itaque quod. Eum, fugit cumque.</p><i>Two:</i><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tenetur eius aut magnam natus vitae error maiores laborum harum doloremque ab quis, neque ratione exercitationem itaque quod. Eum, fugit cumque.</p></td>
+        </tr>
+        <tr>
+            <td><b>Interests:</b><ul><li>Reading</li><li>Drawing</li><li>Brainstorming</li><li>Watching Anime/Kdrama</li></ul></td>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Skills:</b><ul>
+                <li>Problem Solving</li>
+                <li>Critical Thinking</li>
+                <li>Flexibility</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Organization</li>
+                <li>Creativity</li>
+                <li>Attention to Detail</li>
+                <li>Responsibility</li>
+                <li>Projet Management</li>
+            </ul>
+            </td>
+            <td colspan="2" rowspan="2" ><b>Experience:</b><br><br><i>One:</i><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tenetur eius aut magnam natus vitae error maiores laborum harum doloremque ab quis, neque ratione exercitationem itaque quod. Eum, fugit cumque.</p><i>Two:</i><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tenetur eius aut magnam natus vitae error maiores laborum harum doloremque ab quis, neque ratione exercitationem itaque quod. Eum, fugit cumque.</p></td>
+            <td ><b>Contact</b><br><br><b>Phone:</b> +123456789<br><b>Address:</b> 2/2 Laughtale, OnePiece<br><b>Email:</b> sohitbagga@laughtale.com</td>
+            
+            
+        </tr>
+        <tr>
+            
+            <td>data</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</section>
+<section id="#form">
+    <h3>Form</h3>
+    <hr><hr>
+    <div style="text-align: center;">
+        <form action="">
+        <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+        </form>
+    </div>
+    
+</section>
+</body>
+</html>

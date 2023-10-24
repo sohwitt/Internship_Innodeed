@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+
+  scrollbar-color: #6969dd #e0e0e0;
+}
+
+/* 
+  ## mobile-container --> main-container
+  ## fav-container --> fav-container
+  ## meals --> meal-container
+  ## random --> random-meals
+  ## meal --> meal-card
+  ## meal-header --> meal-header
+  ## meal-body --> meal-body    
+  ## fav-btn --> like-btn
+*/
+.btn-grad {
+  background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%)
+}
+
+.btn-grad {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  // box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-container {
+  width: 400px;
+  background-color: #203A43;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 4px #222222db;
+
+  .main-header {
+    display: flex;
+    padding: 1rem;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+    .search-bar {
+      background-color: #f1f1f1;
+      font-family: inherit;
+      width: 70%;
+      border: none;
+      border-radius: 50px;
+      padding: 0.5rem 1rem;
+      transition: 0.5s;
+
+      &:focus:hover{
+        outline: none;
+        box-shadow: 0 0 10px 1px #eeeeeedb;
+      }
+      &:focus{
+        outline: none;
+        box-shadow: 0 0 10px 1px #eeeeeedb;
+      }
+      &:hover{
+        box-shadow: 0 0 5px 0.5px #eeeeeedb;
+      }
+    }
+
+    .search-btn {
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      padding: 0.5rem 1rem;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .fav-container {
+    background-image: linear-gradient(126.3deg, rgba(30, 2, 83, 1) 32.2%, rgba(198, 55, 160, 0.46) 109.2%);
+    padding: 0.25rem 1rem;
+    text-align: center;
+
+    .fav-meal-scroll {
+      overflow: auto;
+
+      .fav-meal-list {
+        display: inline-flex;
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin: 5px;
+          width: 85px;
+
+          img {
+            border: 2px solid rgba(198, 55, 160, 0.76);
+            border-radius: 50%;
+            box-shadow: 0 0 10px 2px #000000db;
+            object-fit: cover;
+            height: 75px;
+            width: 75px;
+
+            &:hover{
+              transform: scale(0.98);
+            }
+          }
+
+          span {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .meal-container {
+    margin: 1.5rem;
+    box-shadow: 0 0 10px 2px #000000db;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .meal-card{
+
+      .meal-header{
+        position: relative;
+        overflow: hidden;
+        
+        .random-meals{
+          position: absolute;
+          top: 1rem;
+          background-color: #fff;
+          color: #0F2027;
+          padding: 0.25rem 1rem;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+          box-shadow: 0 0 5px 1px #000000db;
+
+        }
+
+        img {
+          object-fit: cover;
+          height: 200px;
+          width: 100%;
+        }
+        
+        
+      }
+  
+      .meal-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+
+        h4 {
+          margin: 0;
+        }
+        .like-btn {
+          background-color: transparent;
+          border: none;
+          color: #aaa;
+          font-size: 1.2rem;
+          cursor: pointer;
+          padding: 0;
+          transition: 0.2s;
+
+          &:hover{
+            transform: scale(1.05);
+          }
+
+        }
+        .active {
+          color: orangered;
+
+        }
+      }
+    }
+    
+  }
+
+
+  img {
+    max-width: 100%;
+  }
+}
