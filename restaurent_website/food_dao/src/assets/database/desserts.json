@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Gulab Jamun",
+      "description": "A popular dish of deep-fried milk balls soaked in rose-flavored sugar syrup",
+      "price": 60
+    },
+    {
+      "name": "Kheer",
+      "description": "A creamy and delicious rice pudding cooked with milk, sugar, cardamom and nuts",
+      "price": 80
+    },
+    {
+      "name": "Rasmalai",
+      "description": "A soft and spongy cottage cheese dumpling soaked in saffron-infused milk and garnished with pistachios",
+      "price": 100
+    },
+    {
+      "name": "Gajar Ka Halwa",
+      "description": "A warm and comforting dessert made of grated carrots cooked with ghee, milk, sugar and nuts",
+      "price": 120
+    },
+    {
+      "name": "Jalebi",
+      "description": "A crispy and crunchy spiral-shaped sweet dipped in saffron sugar syrup",
+      "price": 40
+    },
+    {
+      "name": "Hot Fudge Sundae",
+      "description": "A classic dessert of vanilla ice cream topped with hot fudge sauce, whipped cream, chopped nuts, and a cherry",
+      "price": 120
+    },
+    {
+      "name": "Cheesecake",
+      "description": "A rich and creamy dessert of cream cheese, eggs, sugar, and sour cream baked on a crust of crushed graham crackers or cookies",
+      "price": 150
+    },
+    {
+      "name": "Apple Pie",
+      "description": "A traditional American dessert of sliced apples cooked with sugar, cinnamon, and lemon juice, enclosed in a flaky pastry crust",
+      "price": 100
+    },
+    {
+      "name": "Brownies",
+      "description": "A chewy and fudgy dessert of chocolate cake squares mixed with nuts or chocolate chips",
+      "price": 80
+    },
+    {
+      "name": "Tiramisu",
+      "description": "An Italian dessert of ladyfingers soaked in coffee and layered with mascarpone cheese, whipped cream, and cocoa powder",
+      "price": 180
+    }
+  ]

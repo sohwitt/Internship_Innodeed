@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Butter Chicken",
+    "description": "A popular dish of marinated and grilled chicken pieces cooked in a creamy tomato-based sauce",
+    "price": 220,
+    "image":"https://hips.hearstapps.com/hmg-prod/images/delish-191119-butter-chicken-0375-landscape-pf-1574729676.jpg?crop=1xw:0.8435280189423836xh;center,top&resize=1200:*"
+  },
+  {
+    "name": "Mutton Curry",
+    "description": "A spicy and flavorful dish of tender mutton pieces cooked in a onion and coconut gravy with aromatic spices",
+    "price": 260,
+    "image":"https://c.ndtvimg.com/2023-01/oqp7e4cg_mutton-curry_625x300_21_January_23.jpg"
+  },
+  {
+    "name": "Fish Curry",
+    "description": "A mild and delicious dish of fish fillets simmered in a coconut milk and curry leaf sauce",
+    "price": 240,
+    "image":"https://geekrobocook.com/wp-content/uploads/2021/03/76_Masala-Fish-Curry-1200x900.jpg"
+  },
+  {
+    "name": "Chicken Kadhai",
+    "description": "A popular Indian dish of savoury chicken served in an onion tomato gravy",
+    "price": 180,
+    "image":"https://myheartbeets.com/wp-content/uploads/2014/05/kadai-chicken-recipe.jpg"
+  },
+  {
+    "name": "Prawn Curry",
+    "description": "A succulent and tasty dish of prawns cooked in a tomato and onion gravy with coconut milk and spices",
+    "price": 200,
+    "image":"https://vismaifood.com/storage/app/uploads/public/8c6/190/485/thumb__700_0_0_0_auto.jpg"
+  },
+
+  {
+    "name": "Palak Paneer",
+    "description": "A popular dish of soft paneer cubes cooked in a smooth and creamy spinach gravy with spices",
+    "price": 170,
+    "image":"https://www.marionskitchen.com/wp-content/uploads/2021/08/Paneer-Curry8279.jpg"
+  },
+  {
+    "name": "Dal Tadka",
+    "description": "A simple and comforting dish of yellow lentils tempered with cumin seeds, garlic, red chilies and curry leaves",
+    "price": 100,
+    "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/dal-tadka-recipe.jpg"
+  },
+  {
+    "name": "Aloo Gobi",
+    "description": "A dry and flavorful dish of potatoes and cauliflower florets roasted with turmeric, coriander, garam masala and other spices",
+    "price": 120,
+    "image":"https://ministryofcurry.com/wp-content/uploads/2017/04/Aloo-Gobi-5.jpg"
+  },
+  {
+    "name": "Veg Pulao",
+    "description": "A fragrant and delicious rice dish cooked with vegetables, nuts, raisins and aromatic spices in a sealed pot",
+    "price": 200,
+    "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/veg-pulao-recipe.jpg"
+  },
+  {
+    "name": "Kadhi Pakora",
+    "description": "A tangy and creamy dish of yogurt-based gravy with besan fritters, seasoned with fenugreek seeds, asafoetida and red chili powder",
+    "price": 150,
+    "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/03/kadhi-recipe-kadhi-pakora.jpg"
+  }
+]

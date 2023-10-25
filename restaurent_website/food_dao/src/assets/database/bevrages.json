@@ -1,0 +1,47 @@
+[
+      {
+        "name": "Coca-Cola",
+        "description": "A carbonated soft drink with a distinctive cola flavor, sweetened with sugar and/or artificial sweeteners",
+        "price": 40
+      },
+      {
+        "name": "Coffee",
+        "description": "A hot drink made from roasted and ground coffee beans, brewed with water and usually served with milk and sugar",
+        "price": 80
+      },
+      {
+        "name": "Lemonade",
+        "description": "A refreshing drink made from lemon juice, water and sugar, sometimes flavored with mint or other herbs",
+        "price": 60
+      },
+      {
+        "name": "Chocolate Milkshake",
+        "description": "A cold drink made from milk, chocolate ice cream and flavorings, blended together until smooth and frothy",
+        "price": 120
+      },
+      {
+        "name": "Masala Chai",
+        "description": "A hot and aromatic drink made with black tea, milk, sugar and a blend of spices such as cardamom, ginger, cloves and cinnamon",
+        "price": 40
+      },
+      {
+        "name": "Lassi",
+        "description": "A refreshing and creamy drink made with yogurt, water, sugar and sometimes fruits or spices",
+        "price": 80
+      },
+      {
+        "name": "Aam Panna",
+        "description": "A tangy and sweet drink made with boiled green mangoes, sugar, salt, roasted cumin and mint leaves",
+        "price": 60
+      },
+      {
+        "name": "Jaljeera",
+        "description": "A spicy and sour drink made with water, lemon juice, cumin, black salt, mint and other herbs",
+        "price": 50
+      },
+      {
+        "name": "Thandai",
+        "description": "A festive and cooling drink made with milk, almonds, pistachios, rose petals, saffron and a mix of spices",
+        "price": 100
+      }
+    ]
