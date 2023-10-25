@@ -5,17 +5,19 @@ import bevrages from '../assets/database/bevrages.json'
 import desserts from '../assets/database/desserts.json'
 
 import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
+import { typeImplementation } from '@testing-library/user-event/dist/type/typeImplementation'
 
 
-function MenuCardContent({name}) {
+function MenuCardContent(props) {
     
+    // console.log('name',name, typeof name)
   return (
     <>
-    <h1>{name}</h1>
+    {/* <h1>{name}</h1> */}
     <Box sx={{display: 'flex', flexWrap:'wrap', justifyContent:'start', mb: 4}}>
     
-    {name.map((ooo) => {
-        return(
+    <>
+    {bevrages.map((ooo) => 
             <Card sx={{maxWidth:'360px', display:'flex', m:2}}>
                 <CardActionArea>
                     <CardMedia 
@@ -38,7 +40,9 @@ function MenuCardContent({name}) {
                     </Box>
                 </CardActionArea>
             </Card>)
-    })}</Box>
+    }
+    </>
+    </Box>
     </>
   )
 }

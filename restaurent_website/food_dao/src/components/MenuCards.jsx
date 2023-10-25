@@ -6,6 +6,7 @@ import bevrages from '../assets/database/bevrages.json'
 import desserts from '../assets/database/desserts.json'
 
 import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
+import MenuCardContent from './MenuCardContent'
 
 const MenuCards = () => {
   return (
@@ -13,7 +14,9 @@ const MenuCards = () => {
    <Box sx={{display: 'flex', flexDirection:'column', textAlign: 'center'}}>
     <h1>Beverages</h1>
     <Box sx={{display: 'flex', flexWrap:'wrap', justifyContent:'start', mb: 4}}>
-    
+    console.log(type of bevrages)
+    <MenuCardContent name={bevrages} />
+
     {bevrages.map((boo) => {
         return(
             <Card sx={{maxWidth:'360px', display:'flex', m:2}}>
@@ -33,10 +36,9 @@ const MenuCards = () => {
                         </Typography>
                     </CardContent>
                     <Box sx={{display: 'flex', justifyContent:'space-between',mx:4,mb:2,}}>
-                    <Typography variant='body2'>Rs.{boo.price}</Typography>
+                    <Typography variant='body1' sx={{mt:1, fontWeight: '600'}}>Rs.{boo.price}</Typography>
                     <Button variant="contained" color="success">Add to Cart</Button>
-</Box>
-
+                    </Box>
                 </CardActionArea>
             </Card>)
     })}</Box>
@@ -89,6 +91,10 @@ const MenuCards = () => {
                             {moo.description}
                         </Typography>
                     </CardContent>
+                    <Box sx={{display: 'flex', justifyContent:'space-between',mx:4,mb:2,}}>
+                    <Typography variant='body1' sx={{mt:1, fontWeight: '600'}}>Rs.{moo.price}</Typography>
+                    <Button variant="contained" color="success">Add to Cart</Button>
+                    </Box>
                 </CardActionArea>
             </Card>)
     })}</Box>
@@ -113,6 +119,10 @@ const MenuCards = () => {
                             {doo.description}
                         </Typography>
                     </CardContent>
+                    <Box sx={{display: 'flex', justifyContent:'space-between',mx:4,mb:2,}}>
+                    <Typography variant='body1' sx={{mt:1, fontWeight: '600'}}>Rs.{doo.price}</Typography>
+                    <Button variant="contained" color="success">Add to Cart</Button>
+                    </Box>
                 </CardActionArea>
             </Card>)
     })}</Box>
