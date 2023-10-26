@@ -1,52 +1,92 @@
 [
     {
+      "itemType":"Desserts",
+      "id":"des001",
       "name": "Gulab Jamun",
-      "description": "A popular dish of deep-fried milk balls soaked in rose-flavored sugar syrup",
-      "price": 60
+      "description": "A popular Indian dish of soft deep-fried milk balls soaked in rose-flavored sugar syrup, served hot.",
+      "price": 60,
+      "tax": 18,
+      "image": "https://recipes.net/wp-content/uploads/2023/05/gulab-jamun-recipe_9fb159dc2674f395436a64666227c988.jpeg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des002",
       "name": "Kheer",
-      "description": "A creamy and delicious rice pudding cooked with milk, sugar, cardamom and nuts",
-      "price": 80
+      "description": "A creamy and delicious rice pudding cooked with milk, sugar, cardamom and nuts, stirred on low flame over a long time.",
+      "price": 80,
+      "tax": 18,
+      "image": "https://www.cookwithmanali.com/wp-content/uploads/2017/06/Indian-Rice-Kheer-500x375.jpg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des003",
       "name": "Rasmalai",
       "description": "A soft and spongy cottage cheese dumpling soaked in saffron-infused milk and garnished with pistachios",
-      "price": 100
+      "price": 100,
+      "tax": 18,
+      "image": "https://www.kashmironlinestore.com/cdn/shop/articles/Untitled_design_54_800x.jpg?v=1692702218"
     },
     {
+      "itemType":"Desserts",
+      "id":"des004",
       "name": "Gajar Ka Halwa",
       "description": "A warm and comforting dessert made of grated carrots cooked with ghee, milk, sugar and nuts",
-      "price": 120
+      "price": 120,
+      "tax": 18,
+      "image": "https://tastedrecipes.com/wp-content/uploads/2020/01/gajar-ka-halwa-recipe.png"
     },
     {
+      "itemType":"Desserts",
+      "id":"des005",
       "name": "Jalebi",
-      "description": "A crispy and crunchy spiral-shaped sweet dipped in saffron sugar syrup",
-      "price": 40
+      "description": "A crispy and crunchy spiral-shaped sweet dipped in saffron sugar syrup, sometimes served with rabdi",
+      "price": 40,
+      "tax": 18,
+      "image": "https://c.ndtvimg.com/2022-03/s35r1eoo_jalebi_625x300_15_March_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675"
     },
     {
+      "itemType":"Desserts",
+      "id":"des006",
       "name": "Hot Fudge Sundae",
       "description": "A classic dessert of vanilla ice cream topped with hot fudge sauce, whipped cream, chopped nuts, and a cherry",
-      "price": 120
+      "price": 120,
+      "tax": 18,
+      "image": "https://static01.nyt.com/images/2017/06/12/dining/00Icecream11/00Icecream11-articleLarge.jpg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des007",
       "name": "Cheesecake",
       "description": "A rich and creamy dessert of cream cheese, eggs, sugar, and sour cream baked on a crust of crushed graham crackers or cookies",
-      "price": 150
+      "price": 150,
+      "tax": 18,
+      "image": "https://www.allrecipes.com/thmb/DHosjm3NundSDP1q6wWEEECYwr8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8419-easy-sour-cream-cheesecake-DDMFS-beauty-4x3-BG-2747-44b427d330aa41aa876269b1249698a0.jpg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des008",
       "name": "Apple Pie",
       "description": "A traditional American dessert of sliced apples cooked with sugar, cinnamon, and lemon juice, enclosed in a flaky pastry crust",
-      "price": 100
+      "price": 100,
+      "tax": 18,
+      "image": "https://www.southernliving.com/thmb/bbDY1d_ySIrCFcq8WNBkR-3x6pU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2589601_Mailb_Mailbox_Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des009",
       "name": "Brownies",
-      "description": "A chewy and fudgy dessert of chocolate cake squares mixed with nuts or chocolate chips",
-      "price": 80
+      "description": "A chewy and fudgy dessert of chocolate cake squares mixed with nuts or chocolate chips, tastes great when paired with Icecream.",
+      "price": 80,
+      "tax": 18,
+      "image": "https://www.nestleprofessional.in/sites/default/files/2021-08/Brownies.jpg"
     },
     {
+      "itemType":"Desserts",
+      "id":"des010",
       "name": "Tiramisu",
       "description": "An Italian dessert of ladyfingers soaked in coffee and layered with mascarpone cheese, whipped cream, and cocoa powder",
-      "price": 180
+      "price": 180,
+      "tax": 18,
+      "image": "https://static.toiimg.com/photo/89250698.cms"
     }
   ]

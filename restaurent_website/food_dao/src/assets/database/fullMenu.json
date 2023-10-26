@@ -1,4 +1,276 @@
 [
+    {
+        "itemType":"Starter",
+        "id": "str001",
+        "name": "Spring Rolls",
+        "description": "A crispy and savory pastry filled with shredded vegetables and noodles, served with sweet and sour sauce",
+        "price": 120,
+        "tax": 5,
+        "image": "https://www.archanaskitchen.com/images/archanaskitchen/10-Brands/DelMonte-KidsRecipes/6-Creamy_Veg_Spring_Roll_Recipe_-_Kids_Recipes_Made_With_Del_Monte-3.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str002",
+        "name": "Chilli Paneer",
+        "description": "A popular dish of marinated and grilled cottage cheese cubes cooked in a spicy and tangy sauce",
+        "price": 220,
+        "tax": 5,
+        "image":"https://static01.nyt.com/images/2023/07/12/multimedia/zs-paneer-chili-dry-pmzv/zs-paneer-chili-dry-pmzv-master768.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str003",
+        "name": "Khaman Dhokla",
+        "description": "A soft and fluffy steamed cake made of gram flour and tempered with mustard seeds, curry leaves, and green chilies",
+        "price": 100,
+        "tax": 5,
+        "image":"https://geekrobocook.com/wp-content/uploads/2021/02/Dhokla-Gujarati-Dish.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str004",
+        "name": "Paneer Tikka",
+        "description": "A succulent and flavorful dish of paneer pieces marinated in yogurt and spices, and grilled on skewers",
+        "price": 240,
+        "tax": 5,
+        "image":"https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food.JPG"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str005",
+        "name": "Bhel Puri",
+        "description": "A crunchy and refreshing snack made of puffed rice, chopped onions, tomatoes, potatoes, sev, and various chutneys",
+        "price": 80,
+        "tax": 5,
+        "image":"https://www.archanaskitchen.com/images/archanaskitchen/Indian_Street_Food/Vegetarian_Bhel_Puri_Mumbai_Delhi_Kokata_Indian_Street_Food-1.jpg"
+      },
+
+      {
+        "itemType":"Starter",
+        "id": "str006",
+        "name": "Chicken Manchurian",
+        "description": "A popular Indo-Chinese dish of crispy fried chicken balls tossed in a spicy and tangy sauce",
+        "price": 180,
+        "tax": 5,
+        "image":"https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/31-oct/Indio_Chinese_Chicken_Manchurian_Recipe-3.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str007",
+        "name": "Peri Peri Chicken",
+        "description": "A succulent and flavorful dish of chicken pieces marinated in a fiery peri peri sauce and grilled to perfection",
+        "price": 220,
+        "tax": 5,
+        "image":"https://www.archanaskitchen.com/images/archanaskitchen/1-Author/lei778899-hotmail.com/Nandos_peri_peri_chicken.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str008",
+        "name": "Peri Peri Fish Fingers",
+        "description": "A delicious dish of crispy fried fish coated in a spicy and sweet chilli Peri Peri mix and served with mint chutney",
+        "price": 240,
+        "tax": 5,
+        "image":"https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl-archanaskitchen.com/Peri_Peri_Fish_Fingers_Recipe_.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str009",
+        "name": "Mutton Seekh Kebab",
+        "description": "A mouthwatering dish of minced mutton mixed with spices and herbs, and cooked on skewers over charcoal fire",
+        "price": 260,
+        "tax": 5,
+        "image":"https://www.ndtv.com/cooks/images/chicken.seekh.jpg"
+      },
+      {
+        "itemType":"Starter",
+        "id": "str010",
+        "name": "Chicken Lollipop",
+        "description": "A finger-licking dish of chicken wings marinated in a flavorful batter and deep-fried until golden and crisp",
+        "price": 200,
+        "tax": 5,
+        "image":"https://iheartumami.com/wp-content/uploads/2023/04/chicken-lollipop-recipe.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main001",
+        "name": "Butter Chicken",
+        "description": "A popular dish of marinated and grilled chicken pieces cooked in a creamy tomato-based sauce",
+        "price": 220,
+        "tax": 12,
+        "image":"https://hips.hearstapps.com/hmg-prod/images/delish-191119-butter-chicken-0375-landscape-pf-1574729676.jpg?crop=1xw:0.8435280189423836xh;center,top&resize=1200:*"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main002",
+        "name": "Mutton Curry",
+        "description": "A spicy and flavorful dish of tender mutton pieces cooked in a onion and coconut gravy with aromatic spices",
+        "price": 260,
+        "tax": 12,
+        "image":"https://c.ndtvimg.com/2023-01/oqp7e4cg_mutton-curry_625x300_21_January_23.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main003",
+        "name": "Fish Curry",
+        "description": "A mild and delicious dish of fish fillets simmered in a coconut milk and curry leaf sauce",
+        "price": 240,
+        "tax": 12,
+        "image":"https://geekrobocook.com/wp-content/uploads/2021/03/76_Masala-Fish-Curry-1200x900.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main004",
+        "name": "Chicken Kadhai",
+        "description": "A popular Indian dish of savoury chicken served in an onion tomato gravy cooked in traditional utensils",
+        "price": 180,
+        "tax": 12,
+        "image":"https://myheartbeets.com/wp-content/uploads/2014/05/kadai-chicken-recipe.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main005",
+        "name": "Prawn Curry",
+        "description": "A succulent and tasty dish of prawns cooked in a tomato and onion gravy with coconut milk and spices",
+        "price": 200,
+        "tax": 12,
+        "image":"https://vismaifood.com/storage/app/uploads/public/8c6/190/485/thumb__700_0_0_0_auto.jpg"
+      },
+    
+      {
+        "itemType": "Main Course",
+        "id": "main006",
+        "name": "Palak Paneer",
+        "description": "A popular dish of soft paneer cubes cooked in a smooth and creamy spinach gravy with spices",
+        "price": 170,
+        "tax": 12,
+        "image":"https://www.marionskitchen.com/wp-content/uploads/2021/08/Paneer-Curry8279.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main007",
+        "name": "Dal Tadka",
+        "description": "A simple and comforting dish of yellow lentils tempered with cumin seeds, garlic, red chilies and curry leaves",
+        "price": 100,
+        "tax": 12,
+        "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/dal-tadka-recipe.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main008",
+        "name": "Aloo Gobi",
+        "description": "A dry and flavorful dish of potatoes and cauliflower florets roasted with turmeric, coriander, garam masala and other spices",
+        "price": 120,
+        "tax": 12,
+        "image":"https://ministryofcurry.com/wp-content/uploads/2017/04/Aloo-Gobi-5.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main009",
+        "name": "Veg Pulao",
+        "description": "A fragrant and delicious rice dish cooked with vegetables, nuts, raisins and aromatic spices in a sealed pot",
+        "price": 200,
+        "tax": 12,
+        "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/veg-pulao-recipe.jpg"
+      },
+      {
+        "itemType": "Main Course",
+        "id": "main010",
+        "name": "Kadhi Pakora",
+        "description": "A tangy and creamy dish of yogurt-based gravy with besan fritters, seasoned with fenugreek seeds, asafoetida and red chili powder",
+        "price": 150,
+        "tax": 12,
+        "image":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/03/kadhi-recipe-kadhi-pakora.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des001",
+        "name": "Gulab Jamun",
+        "description": "A popular Indian dish of soft deep-fried milk balls soaked in rose-flavored sugar syrup, served hot.",
+        "price": 60,
+        "tax": 18,
+        "image": "https://recipes.net/wp-content/uploads/2023/05/gulab-jamun-recipe_9fb159dc2674f395436a64666227c988.jpeg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des002",
+        "name": "Kheer",
+        "description": "A creamy and delicious rice pudding cooked with milk, sugar, cardamom and nuts, stirred on low flame over a long time.",
+        "price": 80,
+        "tax": 18,
+        "image": "https://www.cookwithmanali.com/wp-content/uploads/2017/06/Indian-Rice-Kheer-500x375.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des003",
+        "name": "Rasmalai",
+        "description": "A soft and spongy cottage cheese dumpling soaked in saffron-infused milk and garnished with pistachios",
+        "price": 100,
+        "tax": 18,
+        "image": "https://www.kashmironlinestore.com/cdn/shop/articles/Untitled_design_54_800x.jpg?v=1692702218"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des004",
+        "name": "Gajar Ka Halwa",
+        "description": "A warm and comforting dessert made of grated carrots cooked with ghee, milk, sugar and nuts",
+        "price": 120,
+        "tax": 18,
+        "image": "https://tastedrecipes.com/wp-content/uploads/2020/01/gajar-ka-halwa-recipe.png"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des005",
+        "name": "Jalebi",
+        "description": "A crispy and crunchy spiral-shaped sweet dipped in saffron sugar syrup, sometimes served with rabdi",
+        "price": 40,
+        "tax": 18,
+        "image": "https://c.ndtvimg.com/2022-03/s35r1eoo_jalebi_625x300_15_March_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des006",
+        "name": "Hot Fudge Sundae",
+        "description": "A classic dessert of vanilla ice cream topped with hot fudge sauce, whipped cream, chopped nuts, and a cherry",
+        "price": 120,
+        "tax": 18,
+        "image": "https://static01.nyt.com/images/2017/06/12/dining/00Icecream11/00Icecream11-articleLarge.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des007",
+        "name": "Cheesecake",
+        "description": "A rich and creamy dessert of cream cheese, eggs, sugar, and sour cream baked on a crust of crushed graham crackers or cookies",
+        "price": 150,
+        "tax": 18,
+        "image": "https://www.allrecipes.com/thmb/DHosjm3NundSDP1q6wWEEECYwr8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8419-easy-sour-cream-cheesecake-DDMFS-beauty-4x3-BG-2747-44b427d330aa41aa876269b1249698a0.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des008",
+        "name": "Apple Pie",
+        "description": "A traditional American dessert of sliced apples cooked with sugar, cinnamon, and lemon juice, enclosed in a flaky pastry crust",
+        "price": 100,
+        "tax": 18,
+        "image": "https://www.southernliving.com/thmb/bbDY1d_ySIrCFcq8WNBkR-3x6pU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2589601_Mailb_Mailbox_Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des009",
+        "name": "Brownies",
+        "description": "A chewy and fudgy dessert of chocolate cake squares mixed with nuts or chocolate chips, tastes great when paired with Icecream.",
+        "price": 80,
+        "tax": 18,
+        "image": "https://www.nestleprofessional.in/sites/default/files/2021-08/Brownies.jpg"
+      },
+      {
+        "itemType":"Desserts",
+        "id":"des010",
+        "name": "Tiramisu",
+        "description": "An Italian dessert of ladyfingers soaked in coffee and layered with mascarpone cheese, whipped cream, and cocoa powder",
+        "price": 180,
+        "tax": 18,
+        "image": "https://static.toiimg.com/photo/89250698.cms"
+      },
       {
         "itemType":"Beverages",
         "id":"bev001",
@@ -80,4 +352,5 @@
         "tax":0,
         "image": "https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2015/02/thandai-recipe-1-1.jpg"
       }
-    ]
+
+]

@@ -1,46 +1,70 @@
-import React from 'react'
-import starters from '../assets/database/starters.json'
-import main from '../assets/database/main.json'
-import bevrages from '../assets/database/bevrages.json'
-import desserts from '../assets/database/desserts.json'
+import React from "react";
 
-import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
+import {
+  Box,
+  Button,
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Paper,
+  Typography,
+} from "@mui/material";
 
 
-function MenuCardContent({name}) {
+function MenuCardContent(props) {
     
   return (
     <>
-    <h1>{name}</h1>
-    <Box sx={{display: 'flex', flexWrap:'wrap', justifyContent:'start', mb: 4}}>
-    
-    {name.map((ooo) => {
-        return(
-            <Card sx={{maxWidth:'360px', display:'flex', m:2}}>
-                <CardActionArea>
-                    <CardMedia 
-                        sx={{maxHeight: '260px'}}
-                        component={'img'}
-                        src={ooo.image}
-                        alt={ooo.name}
-                    />
-                    <CardContent>
-                        <Typography variant='h5' gutterBottom component={"div"}>
-                            {ooo.name}
-                        </Typography>
-                        <Typography variant='body2' >
-                            {ooo.description}
-                        </Typography>
-                    </CardContent>
-                    <Box sx={{display: 'flex', justifyContent:'space-between',mx:4,mb:2,}}>
-                    <Typography variant='body1' sx={{mt:1, fontWeight: '600'}}>Rs.{ooo.price}</Typography>
-                    <Button variant="contained" color="success">Add to Cart</Button>
-                    </Box>
-                </CardActionArea>
-            </Card>)
-    })}</Box>
+    <h1>{props.arrName[0].itemType}</h1>
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          mb: 4,
+        }}
+      >
+        {props.arrName.map((itemx) => (
+          <Card sx={{ bgcolor:'primary.dark',maxWidth: "360px", display: "flex", m: 2,borderRadius:'10px' }}>
+            <CardActionArea>
+              <CardMedia
+                sx={{ maxHeight: "260px",minHeight:"260px" }}
+                component={"img"}
+                src={itemx.image}
+                alt={itemx.name}
+              />
+              <CardContent>
+              <Paper elevation={4} sx={{p:2}}>
+              <Typography variant="h5" gutterBottom component={"div"}>
+                  {itemx.name}
+                </Typography>
+                <Typography variant="body2">{itemx.description}</Typography>
+              
+              </Paper>
+                </CardContent>
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  mx: 4,
+                  mb: 2,
+                }}
+              >
+                <Typography variant="body1" sx={{ mt: 1, fontWeight: "600", color: 'whitesmoke' }}>
+                  Rs.{itemx.price}
+                </Typography>
+                <Button variant="contained" color="warning" onClick={() => props.addToCart({id:itemx.id,quantity:1})}
+                >
+                  Add to Cart
+                </Button>
+              </Box>
+            </CardActionArea>
+          </Card>
+        ))}
+      </Box>
     </>
-  )
+  );
 }
 
-export default MenuCardContent
+export default MenuCardContent;
