@@ -6,10 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+
 }
 
 body{
-  
-  background-color: #f3e5f5;
+  background-color: #fbfefe;
   font-family: 'Poppins', sans-serif;
 }

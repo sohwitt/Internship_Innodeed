@@ -1,66 +1,78 @@
 import React from "react";
+import Box from "@mui/joy/Box";
+import Card from "@mui/joy/Card";
+import CardCover from "@mui/joy/CardCover";
+import CardContent from "@mui/joy/CardContent";
+import Typography from "@mui/joy/Typography";
+import CardOverflow from "@mui/joy/CardOverflow";
+import Divider from "@mui/joy/Divider";
+import Button from "@mui/joy/Button";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../features/cartSlice";
 
-import {
-  Box,
-  Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  CardMedia,
-  Paper,
-  Typography,
-} from "@mui/material";
 
 
 function MenuCardContent(props) {
-    
+  const dispatch = useDispatch();
+  const textC = '#fbfefe';
+
   return (
     <>
-    <h1>{props.arrName[0].itemType}</h1>
       <Box
         sx={{
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
+          textAlign:'start',
           mb: 4,
         }}
       >
         {props.arrName.map((itemx) => (
-          <Card sx={{ bgcolor:'primary.dark',maxWidth: "360px", display: "flex", m: 2,borderRadius:'10px' }}>
-            <CardActionArea>
-              <CardMedia
-                sx={{ maxHeight: "260px",minHeight:"260px" }}
-                component={"img"}
-                src={itemx.image}
-                alt={itemx.name}
-              />
-              <CardContent>
-              <Paper elevation={4} sx={{p:2}}>
-              <Typography variant="h5" gutterBottom component={"div"}>
+          <Box
+            component="ul"
+            sx={{ display: "flex", gap: 2, flexWrap: "wrap", p: 0, m: 2 }}
+          >
+            <Card component="li" sx={{ maxWidth: "300px", flexGrow: 1, p: 0 }}>
+              <CardCover sx={{ p: 0 }}>
+                <img src={itemx.image} alt={itemx.name} loading="lazy" />
+              </CardCover>
+              <CardContent sx={{ p:2,mx:1, mt: 10, bgcolor: 'rgba(49,51,57,0.6)', borderRadius:'20px'}}>
+                <Typography level="body-lg" fontWeight="lg" textColor={textC}>
                   {itemx.name}
                 </Typography>
-                <Typography variant="body2">{itemx.description}</Typography>
-              
-              </Paper>
-                </CardContent>
-              <Box
-                sx={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  mx: 4,
-                  mb: 2,
-                }}
-              >
-                <Typography variant="body1" sx={{ mt: 1, fontWeight: "600", color: 'whitesmoke' }}>
-                  Rs.{itemx.price}
+                <Typography textColor={textC} level="body-sm">
+                  {itemx.description}
                 </Typography>
-                <Button variant="contained" color="warning" onClick={() => props.addToCart({id:itemx.id,quantity:1})}
+              </CardContent>
+              <CardOverflow
+                variant="soft"
+                sx={{ bgcolor: "background.level1" }}
+              >
+                <Divider inset="context" />
+                <CardContent
+                  orientation="horizontal"
+                  sx={{ justifyContent: "space-between", pl: 2 }}
                 >
-                  Add to Cart
-                </Button>
-              </Box>
-            </CardActionArea>
-          </Card>
+                  <Typography
+                    level="body-lg"
+                    fontWeight="md"
+                    textColor="text.secondary"
+                    sx={{ py: "10px" }}
+                  >
+                    Rs.{itemx.price}
+                  </Typography>
+                  <Button
+                    variant="soft"
+                    color="warning"
+                    sx={{ borderTopLeftRadius: 0, borderTopRightRadius: 0 }}
+                    onClick={() => dispatch(addToCart(itemx))}
+                  >
+                    Add to Cart
+                  </Button>
+                </CardContent>
+              </CardOverflow>
+            </Card>
+          </Box>
         ))}
       </Box>
     </>
